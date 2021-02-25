@@ -1,0 +1,143 @@
+/* ALLGEMEIN */
+
+*{
+    font-family:  Arabic Typesetting;
+;
+}
+
+/* GESAMTE SEITE */
+
+body {
+    width: 1200px; /* Website ist 960 px breit */
+    max-width: 90%; /* Website soll nie kleiner als 90% der gesamtseite sein */
+    
+    margin: 0 auto; /* Außenabstand 0 oben/unten und auto rechts/links (heißt mitte)
+                        bringt unsere Seite in die Mitte*/
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3em;
+    margin: auto
+    
+}
+
+a {
+    padding: 30px;
+    font-family:Arabic Typesetting;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    
+}
+#toper {
+    background-color: white;
+    backface-visibility: visible
+    position: fixed;
+    top: 0;
+}
+
+a:hover {
+    color: #F2B705;
+
+}
+
+/* BILDER TEXT */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    margin-bottom: 80px;
+    padding-left: 10px;
+       font-size: 2em;
+    border-left: solid #F2B705 5px; 
+}
+
+h1 {
+    text-align: center;
+    font-family:Arabic Typesetting;
+    font-size: 4em;
+    padding: 15px;
+    
+    border: solid #F2B705 5px;
+}
+
+h2 {
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    font-family:Arabic Typesetting;
+
+    
+    text-decoration: underline;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+ 
+      
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #F2B705;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #F2B705;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 1200px; /* Website ist 960 px breit */
+  max-width: 90%; /* Website soll nie kleiner als 90% der gesamtseite sein */
+  font-family:Arabic Typesetting;
+    font-size: 2em;
+padding-top: 20px
+  margin: 0 auto; 
+}
+
+iframe{
+    width: 1200px;
+    margin: auto;
+    height: 1000px;
+}
+table {
+  width: 1200px; /* Website ist 960 px breit */
+  max-width: 90%; /* Website soll nie kleiner als 90% der gesamtseite sein */
+  font-family:Arabic Typesetting;
+    font-size: 2.2em;
+padding-top: 20px
+    text-align: center;
+  margin: 0 auto; 
+ 
+}
+td, th, tr {
+     border: 2px solid black;
+    text-align: center;
+}
